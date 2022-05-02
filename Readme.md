@@ -1,4 +1,4 @@
-Biolerplate project for playing with custom JSX transpilation.
+Boilerplate project for playing with custom JSX transpilation.
 
 # Dependecies
 `Babel` used for jsx parsing and watching files changes. `Http-server` used for serving access via http.
@@ -19,3 +19,7 @@ Put here any JSX processing logic that you want. Also provide `jsxRenderer` obje
 # Setup
 
 > npm i && npm start
+
+# Credits
+
+The code from [this repo](https://github.com/bitboxer/jsx-no-react) was used for creation of `jsxProcessing.js`.
