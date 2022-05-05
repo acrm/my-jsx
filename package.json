@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "serve:static": "npx babel ./static --out-dir ./dist --copy-files --watch",
-    "serve:jsx": "npx babel ./src --out-dir ./dist --plugins @babel/plugin-syntax-jsx --watch",
+    "serve:jsx": "npx babel ./src --out-dir ./dist --watch",
     "serve:http": "npx http-server ./dist",
     "start": "npm run clean && npm-run-all --parallel serve:*"
   },
